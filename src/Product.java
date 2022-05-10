@@ -15,6 +15,6 @@ public void printProduct( ) {
 
 public void totalCost() {
     this.flowerCost *= this.flowerQuantity;
-    System.out.println("Total cost is: "+ this.flowerCost);
+    System.out.println("Total cost is: " + this.flowerCost);
 }
 }
