@@ -3,14 +3,14 @@ public class Product {
     private Double flowerCost;
     private Integer flowerQuantity;
 
-    public Product( String flowerProduct, double flowerCost, Integer flowerQuantity ) {
+    public Product( String flowerProduct, double flowerCost, Integer flowerQuantity) {
         this.flowerCost = flowerCost;
         this.flowerQuantity = flowerQuantity;
         this.flowerProduct = flowerProduct;
 }
 
 public void printProduct( ) {
-    System.out.println(this.flowerProduct + " cost "  + this.flowerCost + " and " + this.flowerQuantity + " dozens were purchased." );
+    System.out.println(this.flowerProduct + " cost "  + this.flowerCost + " and " + this.flowerQuantity + " dozens were purchased.");
 }
 
 public void totalCost() {
